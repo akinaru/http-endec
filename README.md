@@ -11,15 +11,15 @@ Http encoder/decoder for Java/Android
 
 <hr/>
 
-This endec works with streaming data in a socket-blocking configuration. 
-It will block until the whole current HTTP frame is totally parsed.
+* This endec works with streaming data in a socket-blocking configuration. 
+* It will block until the whole current HTTP frame is totally parsed.
 
 ## Include in your project
 
 * with Gradle, from jcenter :
 
 ```
-compile 'akinaru:http-endec:1.02'
+compile 'akinaru:http-endec:1.01'
 ```
 
 ## How to use ?
