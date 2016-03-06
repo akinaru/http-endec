@@ -36,14 +36,6 @@ HttpFrame frameRequest = new HttpFrame(
 						);
 ```
 
-will give : 
-```
-POST /rest/help/todo HTTP/1.1
-
-kind of body
-
-```
-
 #### Build HTTP response
 
 ```
@@ -53,13 +45,6 @@ HttpResponseFrame frameResponse = new HttpResponseFrame(
 										new HashMap<String, String>(),
 										""
 									);
-```
-
-will give : 
-```
-HTTP/1.1 200 OK
-
-
 ```
 
 #### Parse HTTP inputstream
@@ -88,6 +73,10 @@ In `fr.bmartel.protocol.socket.DataBufferConst`
 Change the value : 
 
 `public final static int DATA_BLOCK_SIZE_LIMIT = 4089;`
+
+## JavaDoc
+
+http://akinaru.github.io/http-endec
 
 ## Compatibility
 
