@@ -1,4 +1,4 @@
-# Http encoder/decoder
+# http-endec
 
 [![Build Status](https://travis-ci.org/akinaru/http-endec.svg?branch=master)](https://travis-ci.org/akinaru/http-endec)
 [![Download](https://api.bintray.com/packages/akinaru/maven/http-endec/images/download.svg) ](https://bintray.com/akinaru/maven/http-endec/_latestVersion)
