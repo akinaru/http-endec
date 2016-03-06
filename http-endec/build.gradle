@@ -1,12 +1,10 @@
 apply plugin: 'bintray-release'
-apply plugin: 'base'
-apply plugin: 'jacoco'
-apply plugin: 'com.github.kt3k.coveralls'
 
 group 'akinaru'
 version '1.01'
 
 apply plugin: 'java'
+apply plugin: 'com.github.kt3k.coveralls'
 
 sourceCompatibility = 1.7
 
@@ -33,35 +31,4 @@ task generateJavadoc(type: Javadoc) {
     destinationDir = file("./doc/")
 }
 
-jacoco {
-    toolVersion = '0.7.1.201405082137'
-}
-
-subprojects {
-    apply plugin: 'java'
-
-    dependencies {
-        testCompile 'junit:junit:4.11'
-    }
-
-    jacocoTestReport {
-        reports {
-            html.enabled = true
-            xml.enabled = true
-            csv.enabled = false
-        }
-    }
-}
-
-task jacocoRootReport(type: org.gradle.testing.jacoco.tasks.JacocoReport) {
-    dependsOn = subprojects.test
-    sourceDirectories = files(subprojects.sourceSets.main.allSource.srcDirs)
-    classDirectories =  files(subprojects.sourceSets.main.output)
-    executionData = files(subprojects.jacocoTestReport.executionData)
-    reports {
-        html.enabled = true
-        xml.enabled = true
-        csv.enabled = false
-        xml.destination = "${buildDir}/reports/jacoco/test/jacocoTestReport.xml"
-    }
-}
+coveralls.jacocoReportPath = 'build/reports/coverage/debug/report.xml'
