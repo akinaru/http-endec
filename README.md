@@ -19,7 +19,7 @@ It will block until the whole current HTTP frame is totally parsed.
 * with Gradle, from jcenter :
 
 ```
-compile 'akinaru:http-endec:1.01'
+compile 'akinaru:http-endec:1.02'
 ```
 
 ## How to use ?
