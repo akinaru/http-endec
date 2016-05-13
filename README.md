@@ -5,8 +5,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/akinaru/http-endec/badge.svg?branch=master)](https://coveralls.io/github/akinaru/http-endec?branch=master)
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE.md)
 
-http://akinaru.github.io/http-endec
-
 Http encoder/decoder for Java/Android
 
 <hr/>
@@ -19,7 +17,7 @@ Http encoder/decoder for Java/Android
 * with Gradle, from jcenter :
 
 ```
-compile 'akinaru:http-endec:1.01'
+compile 'akinaru:http-endec:1.02'
 ```
 
 ## How to use ?
