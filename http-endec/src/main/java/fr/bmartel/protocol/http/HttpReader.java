@@ -72,7 +72,6 @@ public class HttpReader {
 			}
 			return buffer;
 		} catch (SocketException e) {
-			e.printStackTrace();
 			return null;
 		}
 	}

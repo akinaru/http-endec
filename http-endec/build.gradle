@@ -1,7 +1,7 @@
 apply plugin: 'bintray-release'
 
 group 'akinaru'
-version '1.01'
+version '1.02'
 
 apply plugin: 'java'
 
@@ -19,7 +19,7 @@ publish {
     userOrg = 'akinaru'
     groupId = 'akinaru'
     artifactId = 'http-endec'
-    publishVersion = '1.01'
+    publishVersion = '1.02'
     desc = 'Http Java encoder/decoder'
     website = 'https://github.com/akinaru/http-endec-java'
 }
