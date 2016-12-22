@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/bertrandmartel/http-endec.svg?branch=master)](https://travis-ci.org/bertrandmartel/http-endec)
 [![Download](https://api.bintray.com/packages/bertrandmartel/maven/http-endec/images/download.svg) ](https://bintray.com/bertrandmartel/maven/http-endec/_latestVersion)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/fr.bmartel/http-endec/badge.svg)](https://maven-badges.herokuapp.com/maven-central/fr.bmartel/http-endec)
 [![Coverage Status](https://coveralls.io/repos/github/bertrandmartel/http-endec/badge.svg?branch=master)](https://coveralls.io/github/bertrandmartel/http-endec?branch=master)
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE.md)
 
