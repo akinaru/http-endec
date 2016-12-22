@@ -5,9 +5,10 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.novoda:bintray-release:0.3.4'
         classpath 'org.kt3k.gradle.plugin:coveralls-gradle-plugin:2.1.0'
         classpath 'org.jacoco:org.jacoco.core:0.7.5.201505241946'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -30,10 +31,6 @@ allprojects {
 subprojects {
     apply plugin: 'java'
 
-    dependencies {
-        testCompile 'junit:junit:4.11'
-    }
-
     jacocoTestReport {
         reports {
             html.enabled = true
@@ -52,6 +49,6 @@ task jacocoRootReport(type: org.gradle.testing.jacoco.tasks.JacocoReport) {
         html.enabled = true
         xml.enabled = true
         csv.enabled = false
-        xml.destination = "${buildDir}/reports/jacoco/test/jacocoTestReport.xml"
+        xml.destination = "${buildDir}/reports/jacoco/examples/jacocoTestReport.xml"
     }
 }

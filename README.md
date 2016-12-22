@@ -1,8 +1,8 @@
 # http-endec
 
-[![Build Status](https://travis-ci.org/akinaru/http-endec.svg?branch=master)](https://travis-ci.org/akinaru/http-endec)
-[![Download](https://api.bintray.com/packages/akinaru/maven/http-endec/images/download.svg) ](https://bintray.com/akinaru/maven/http-endec/_latestVersion)
-[![Coverage Status](https://coveralls.io/repos/github/akinaru/http-endec/badge.svg?branch=master)](https://coveralls.io/github/akinaru/http-endec?branch=master)
+[![Build Status](https://travis-ci.org/bertrandmartel/http-endec.svg?branch=master)](https://travis-ci.org/bertrandmartel/http-endec)
+[![Download](https://api.bintray.com/packages/bertrandmartel/maven/http-endec/images/download.svg) ](https://bintray.com/bertrandmartel/maven/http-endec/_latestVersion)
+[![Coverage Status](https://coveralls.io/repos/github/bertrandmartel/http-endec/badge.svg?branch=master)](https://coveralls.io/github/bertrandmartel/http-endec?branch=master)
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE.md)
 
 Http encoder/decoder for Java/Android
@@ -17,7 +17,7 @@ Http encoder/decoder for Java/Android
 * with Gradle, from jcenter :
 
 ```
-compile 'akinaru:http-endec:1.02'
+compile 'fr.bmartel:http-endec:1.03'
 ```
 
 ## How to use ?
@@ -74,7 +74,7 @@ Change the value :
 
 ## JavaDoc
 
-http://akinaru.github.io/http-endec
+http://bertrandmartel.github.io/http-endec
 
 ## Compatibility
 
