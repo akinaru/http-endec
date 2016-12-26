@@ -2,9 +2,11 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 group 'fr.bmartel'
-version '1.03'
+version '1.04'
 
 apply plugin: 'java'
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
 
 repositories {
     mavenCentral()
@@ -125,6 +127,8 @@ task generateJavadoc(type: Javadoc) {
 }
 
 compileJava {
+    sourceCompatibility = "1.7"
+    targetCompatibility = "1.7"
     options.encoding = 'UTF-8'
     options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
 }
